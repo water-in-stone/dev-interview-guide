@@ -62,7 +62,7 @@ graph TB
         App[微信 App]
     end
 
-    subgraph GW["网关层"]
+    subgraph GatewayLayer["网关层"]
         GW[API Gateway\n限流 + 鉴权]
     end
 
